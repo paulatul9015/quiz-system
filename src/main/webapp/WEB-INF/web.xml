@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>UserController</servlet-name>
+        <servlet-class>com.example.guvi.controller.UserController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserController</servlet-name>
+        <url-pattern>/user</url-pattern>
+    </servlet-mapping>
+</web-app>
